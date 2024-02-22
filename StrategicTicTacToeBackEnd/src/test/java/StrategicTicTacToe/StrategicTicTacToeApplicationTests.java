@@ -1,10 +1,10 @@
-package com.example.demo;
+package StrategicTicTacToe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StrategicTicTacToeBackEndApplicationTests {
+class StrategicTicTacToeApplicationTests {
 
 	@Test
 	void contextLoads() {

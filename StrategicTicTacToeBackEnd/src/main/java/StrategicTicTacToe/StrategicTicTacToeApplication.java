@@ -1,11 +1,14 @@
+package StrategicTicTacToe;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StrategicTicTacToeBackEndApplication {
+@EnableMongoRepositories
+public class StrategicTicTacToeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StrategicTicTacToeBackEndApplication.class, args);
+		SpringApplication.run(StrategicTicTacToeApplication.class, args);
 	}
 
 }
