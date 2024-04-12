@@ -1,4 +1,4 @@
-package main.java.StrategicTicTacToe.model;
+package StrategicTicTacToe.model;
 
 public class Coordinate {
     private int sx;
@@ -48,6 +48,14 @@ public class Coordinate {
     }
 
     public boolean equals(Coordinate coordinate) {
-        
+        if(sx == coordinate.getSx() && sy == coordinate.getSy() && lx == coordinate.getLx() && ly == coordinate.getLy()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public String toString() {
+        return "SmallGrid X: " + sx + "\tSmallGrid Y: " + sy + "\tLargeGrid X: " + lx + "\tLargeGrid Y: " + ly;
     }
 }

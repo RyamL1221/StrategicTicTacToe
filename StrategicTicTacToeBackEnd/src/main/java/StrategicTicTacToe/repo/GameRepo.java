@@ -1,4 +1,4 @@
-package main.java.StrategicTicTacToe.repo;
+package StrategicTicTacToe.repo;
 
 import org.springframework.stereotype.Repository;
 import java.util.*;

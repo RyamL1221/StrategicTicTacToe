@@ -1,6 +1,6 @@
-package main.java.StrategicTicTacToe.model;
+package StrategicTicTacToe.model;
 
-import main.java.StrategicTicTacToe.exception.GridSizeException;
+import StrategicTicTacToe.exception.*;
 
 public class SmallGrid {
     private char[][] grid;
@@ -9,7 +9,7 @@ public class SmallGrid {
         this.grid = new char[3][3];
     }
 
-    public SmallGrids(char[][] grid) {
+    public SmallGrid(char[][] grid) {
         if(grid.length != 3 || grid[0].length != 3 || grid[1].length != 3 || grid[2].length != 3) {
             throw new GridSizeException();
         }

@@ -1,4 +1,4 @@
-package main.java.StrategicTicTacToe.model;
+package StrategicTicTacToe.model;
 
 public class LargeGrid {
     private SmallGrid[][] grid;
