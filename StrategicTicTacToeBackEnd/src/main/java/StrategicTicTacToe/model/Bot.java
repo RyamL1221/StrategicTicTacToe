@@ -1,5 +1,5 @@
 package main.java.StrategicTicTacToe.model;
 
-public class Bot {
+public static class Bot {
     
 }
