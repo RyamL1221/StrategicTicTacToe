@@ -1,4 +1,4 @@
-package main.java.StrategicTicTacToe.exception;
+package StrategicTicTacToe.exception;
 
 public class GridSizeException extends RuntimeException{
     

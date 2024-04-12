@@ -1,9 +1,16 @@
-package main.java.StrategicTicTacToe.service;
+package StrategicTicTacToe.service;
 
-import org.springframework.*;
-import jakarta.transaction.transactional;
+import StrategicTicTacToe.exception.GameNotFoundException;
+import StrategicTicTacToe.model.Game;
+import StrategicTicTacToe.repo.GameRepo;
 
-import main.java.StrategicTicTacToe.*;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import jakarta.transaction.Transactional;
+
 
 @Service
 @Transactional
